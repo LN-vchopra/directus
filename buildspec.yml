@@ -14,7 +14,7 @@ phases:
     commands:
       - echo build Docker image on `date`
       - cd src
-      - docker build -t directus:latest .
+      #- docker build -t directus:latest .
       - docker tag directus:latest https://608812696382.dkr.ecr.us-east-1.amazonaws.com/directus:latest
   post_build:
     commands:
