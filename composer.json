@@ -37,7 +37,8 @@
     "ext-exif": "*",
     "ext-mbstring": "*",
     "ext-openssl": "*",
-    "ext-gd": "*"
+    "ext-gd": "*",
+    "datadog/php-datadogstatsd": "1.3.*"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.7.25"
